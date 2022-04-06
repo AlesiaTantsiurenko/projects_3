@@ -3,7 +3,7 @@
 """
 
 
-def isprime(num: int)-> list:
+def isprime(num: int) -> list:
     """ Функция нахождения простых чисел из заданного диапазона """
     numbers = [2]
     for num_1 in range(3, num + 1, 2):
