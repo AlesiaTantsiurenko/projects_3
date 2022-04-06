@@ -3,7 +3,7 @@
 """
 
 
-def tens(num: int)-> int:
+def tens(num: int) -> int:
     """ Функция для нахождения десятков в числе """
     ten = (num // 10) % 10
     return ten
