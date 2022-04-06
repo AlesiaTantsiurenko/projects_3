@@ -4,7 +4,7 @@
 """
 
 
-def calculation(number: int)-> int:
+def calculation(number: int)-> float:
     """ Функция нахождения суммы слогаемых """
     res = 0
     i = 1
