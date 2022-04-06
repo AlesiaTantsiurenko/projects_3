@@ -3,7 +3,7 @@
 """
 
 
-def isprime(num):
+def isprime(num: int)-> list:
     """ Функция нахождения простых чисел из заданного диапазона """
     numbers = [2]
     for num_1 in range(3, num + 1, 2):
@@ -37,7 +37,7 @@ def main():
         elif choice == "1":
             while True:
                 try:
-                    n = int(input("Введите целое число больше 2 "))
+                    n = int(input("Введите количество простых чисел (целое число больше 2) "))
                     if n > 2:
                         break
                     else:
