@@ -4,7 +4,7 @@
 """
 
 
-def calculation(number):
+def calculation(number: int)-> int:
     """ Функция нахождения суммы слогаемых """
     res = 0
     i = 1
