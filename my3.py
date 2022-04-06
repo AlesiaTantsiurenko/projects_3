@@ -4,7 +4,7 @@
 """
 
 
-def fact(num: int)-> float:
+def fact(num: int) -> float:
     """ Рекурсивная функция исчисления факториала """
     if num == 1 or num == 0:
         return 1
